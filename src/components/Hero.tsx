@@ -17,7 +17,7 @@ export default function Hero() {
     <Section className="py-16 sm:py-20">
       <div className="grid items-center gap-10 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="space-y-6">
-          <h1 className="text-4xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-5xl">
+          <h1 className="font-display text-4xl font-semibold leading-tight tracking-tight text-stone-900 sm:text-5xl">
             Turning product creation into a game.
           </h1>
           <p className="text-lg leading-relaxed text-stone-600">

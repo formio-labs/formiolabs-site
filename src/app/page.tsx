@@ -21,7 +21,7 @@ export default function Home() {
 
         <Section className="border-t border-stone-200/70 py-14 sm:py-20">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-            <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+            <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
               What We Do
             </h2>
             <div className="space-y-4 text-lg leading-relaxed text-stone-600">
@@ -40,7 +40,7 @@ export default function Home() {
         <Section className="border-t border-stone-200/70 py-14 sm:py-20">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+              <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
                 Why We Exist
               </h2>
               <p className="text-lg text-stone-600">
@@ -58,7 +58,7 @@ export default function Home() {
         <Section className="border-t border-stone-200/70 py-14 sm:py-20">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
             <div className="space-y-4">
-              <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+              <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
                 How We Build
               </h2>
               <p className="text-lg text-stone-600">Formio Labs blends:</p>
@@ -82,7 +82,7 @@ export default function Home() {
             <p className="text-xs uppercase tracking-[0.3em] text-stone-500">
               Current Product
             </p>
-            <h3 className="mt-4 text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+            <h3 className="font-display mt-4 text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
               Charmed &mdash; Private Beta
             </h3>
             <div className="mt-4 space-y-4 text-lg leading-relaxed text-stone-600">
@@ -103,7 +103,7 @@ export default function Home() {
 
         <Section className="border-t border-stone-200/70 py-14 sm:py-20">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-            <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+            <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
               Who We&#39;re Building With
             </h2>
             <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-stone-400">
@@ -119,7 +119,7 @@ export default function Home() {
 
         <Section className="border-t border-stone-200/70 py-14 sm:py-20">
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-            <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+            <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
               About Formio Labs
             </h2>
             <div className="space-y-4 text-lg leading-relaxed text-stone-600">
@@ -140,7 +140,7 @@ export default function Home() {
           <div className="rounded-3xl border border-stone-200/70 bg-white/80 p-8 shadow-sm sm:p-10">
             <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
               <div className="space-y-4">
-                <h2 className="text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
+                <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
                   Interested in collaborating or learning more?
                 </h2>
               </div>
