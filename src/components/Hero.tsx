@@ -1,16 +1,6 @@
-import fs from "node:fs";
-import path from "node:path";
 import Image from "next/image";
 import ButtonLink from "./ButtonLink";
 import Section from "./Section";
-
-const heroImagePath = path.join(
-  process.cwd(),
-  "public",
-  "images",
-  "hero-placeholder.png"
-);
-const hasHeroImage = fs.existsSync(heroImagePath);
 
 export default function Hero() {
   return (
@@ -50,23 +40,14 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-stone-200/70 bg-white/70 shadow-sm">
-          {hasHeroImage ? (
-            <Image
-              src="/images/hero-placeholder.png"
-              alt="Formio Labs hero placeholder"
-              fill
-              priority
-              sizes="(min-width: 1024px) 40vw, 100vw"
-              className="object-cover"
-            />
-          ) : (
-            <div className="h-full w-full bg-gradient-to-br from-stone-100 via-white to-stone-200">
-              <div
-                className="absolute inset-6 rounded-2xl border border-stone-200/80 bg-white/60"
-                aria-hidden="true"
-              />
-            </div>
-          )}
+          <Image
+            src="/hero-machine.webp"
+            alt="A whimsical machine that turns creativity into real-world products"
+            fill
+            priority
+            sizes="(max-width: 768px) 100vw, 560px"
+            className="object-cover"
+          />
         </div>
       </div>
     </Section>
