@@ -1,3 +1,4 @@
+import Image from "next/image";
 import ButtonLink from "@/components/ButtonLink";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -10,9 +11,16 @@ export default function Home() {
         <Section className="py-6">
           <a
             href="#top"
-            className="text-base font-semibold tracking-tight text-violet-600 transition-colors hover:text-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 sm:text-lg"
+            className="inline-flex items-center focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"
           >
-            Formio Labs
+            <Image
+              src="/logo.webp"
+              alt="Formio Labs"
+              width={300}
+              height={104}
+              className="h-[2.6rem] w-auto"
+              priority
+            />
           </a>
         </Section>
       </header>
