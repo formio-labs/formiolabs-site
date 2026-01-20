@@ -10,7 +10,7 @@ export default function Home() {
         <Section className="py-6">
           <a
             href="#top"
-            className="text-base font-semibold tracking-tight text-stone-900 sm:text-lg"
+            className="text-base font-semibold tracking-tight text-violet-600 transition-colors hover:text-violet-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600 sm:text-lg"
           >
             Formio Labs
           </a>
@@ -47,7 +47,7 @@ export default function Home() {
                 Most product creation still feels transactional and forgettable.
               </p>
             </div>
-            <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-stone-400">
+            <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-violet-600">
               <li>Playful, not procedural</li>
               <li>Creative, not constrained</li>
               <li>Engaging, not disposable</li>
@@ -64,7 +64,7 @@ export default function Home() {
               <p className="text-lg text-stone-600">Formio Labs blends:</p>
             </div>
             <div className="space-y-4">
-              <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-stone-400">
+              <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-violet-600">
                 <li>Game mechanics and progression systems</li>
                 <li>AI-powered creative tools</li>
                 <li>Modern fulfillment and commerce infrastructure</li>
@@ -79,7 +79,7 @@ export default function Home() {
 
         <Section className="border-t border-stone-200/70 py-14 sm:py-20">
           <div className="rounded-3xl border border-stone-200/70 bg-white/80 p-8 shadow-sm sm:p-10">
-            <p className="text-xs uppercase tracking-[0.3em] text-stone-500">
+            <p className="text-xs uppercase tracking-[0.3em] text-violet-600">
               Current Product
             </p>
             <h3 className="font-display mt-4 text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
@@ -106,7 +106,7 @@ export default function Home() {
             <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
               Who We&#39;re Building With
             </h2>
-            <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-stone-400">
+            <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-violet-600">
               <li>Fulfillment and production partners</li>
               <li>Brands exploring interactive or gamified commerce</li>
               <li>
