@@ -41,24 +41,6 @@ export default function Home() {
           <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
             <div className="space-y-4">
               <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
-                Why We Exist
-              </h2>
-              <p className="text-lg text-stone-600">
-                Most product creation still feels transactional and forgettable.
-              </p>
-            </div>
-            <ul className="list-disc space-y-3 pl-5 text-lg text-stone-600 marker:text-violet-600">
-              <li>Playful, not procedural</li>
-              <li>Creative, not constrained</li>
-              <li>Engaging, not disposable</li>
-            </ul>
-          </div>
-        </Section>
-
-        <Section className="border-t border-stone-200/70 py-14 sm:py-20">
-          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-            <div className="space-y-4">
-              <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
                 How We Build
               </h2>
               <p className="text-lg text-stone-600">Formio Labs blends:</p>
@@ -95,9 +77,6 @@ export default function Home() {
                 them to life through on-demand production.
               </p>
             </div>
-            <p className="mt-6 text-sm text-stone-500">
-              A dedicated Charmed site is coming soon.
-            </p>
           </div>
         </Section>
 
