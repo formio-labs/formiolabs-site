@@ -123,12 +123,9 @@ export default function Home() {
           </div>
         </Section>
 
-        <Section className="border-t border-stone-200/70 py-16 sm:py-20">
+        <Section id="contact" className="border-t border-stone-200/70 py-16 sm:py-20">
           <div className="rounded-3xl border border-stone-200/70 bg-white/80 p-8 shadow-sm sm:p-10">
             <div className="space-y-6">
-              <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
-                Interested in collaborating or learning more?
-              </h2>
               <ContactForm />
             </div>
           </div>
