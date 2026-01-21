@@ -75,7 +75,7 @@ export default function ContactForm() {
 
       <div className="space-y-2">
         <label className="text-sm font-medium text-stone-700" htmlFor="reason">
-          Reason
+          Why are you reaching out?
         </label>
         <select
           id="reason"
@@ -98,7 +98,7 @@ export default function ContactForm() {
 
       <div className="space-y-2">
         <label className="text-sm font-medium text-stone-700" htmlFor="note">
-          Note
+          Tell us more, if you want...
         </label>
         <textarea
           id="note"
