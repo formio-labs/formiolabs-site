@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ButtonLink from "@/components/ButtonLink";
+import ContactForm from "@/components/ContactForm";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";
@@ -123,39 +123,10 @@ export default function Home() {
           </div>
         </Section>
 
-        <Section className="border-t border-stone-200/70 py-16 sm:py-20">
+        <Section id="contact" className="border-t border-stone-200/70 py-16 sm:py-20">
           <div className="rounded-3xl border border-stone-200/70 bg-white/80 p-8 shadow-sm sm:p-10">
-            <div className="flex flex-col gap-8 lg:flex-row lg:items-center lg:justify-between">
-              <div className="space-y-4">
-                <h2 className="font-display text-2xl font-semibold tracking-tight text-stone-900 sm:text-3xl">
-                  Interested in collaborating or learning more?
-                </h2>
-              </div>
-              <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
-                <ButtonLink
-                  href="mailto:hello@formiolabs.com"
-                  className="w-full sm:w-auto"
-                >
-                  Get in Touch
-                </ButtonLink>
-                <ButtonLink
-                  href="https://www.linkedin.com/company/formio-labs/"
-                  variant="linkedin"
-                  className="w-full sm:w-auto"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <svg
-                    aria-hidden="true"
-                    viewBox="0 0 24 24"
-                    className="h-4 w-4"
-                    fill="currentColor"
-                  >
-                    <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.05-1.86-3.05-1.86 0-2.14 1.45-2.14 2.95v5.67H9.33V9h3.42v1.56h.05c.48-.9 1.64-1.86 3.37-1.86 3.6 0 4.27 2.37 4.27 5.46v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zm1.78 13.02H3.56V9h3.56v11.45z" />
-                  </svg>
-                  LinkedIn
-                </ButtonLink>
-              </div>
+            <div className="space-y-6">
+              <ContactForm />
             </div>
           </div>
         </Section>

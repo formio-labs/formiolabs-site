@@ -15,7 +15,7 @@ export default function Hero() {
           </p>
           <div className="flex flex-col gap-3 sm:flex-row">
             <ButtonLink
-              href="mailto:hello@formiolabs.com"
+              href="#contact"
               className="w-full sm:w-auto"
             >
               Get in Touch
