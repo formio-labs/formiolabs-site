@@ -20,7 +20,9 @@ export default function CharmedPrivacyPage() {
       <h1 className="font-display text-3xl font-semibold tracking-tight text-stone-900 sm:text-4xl">
         Charmed Privacy Policy
       </h1>
-      <p className="mt-2 text-sm text-stone-500">Last updated: June 14, 2026</p>
+      <p className="mt-2 text-sm text-stone-500">
+        Last updated: September 1, 2026
+      </p>
 
       <p className={para}>
         Charmed (&ldquo;the App&rdquo;) is operated by Formio Labs Inc.
@@ -69,14 +71,29 @@ export default function CharmedPrivacyPage() {
         record your order.
       </p>
       <p className={para}>
+        <span className={strong}>In-app purchases.</span> Coin packs are sold
+        through Apple&rsquo;s in-app purchase system. Apple processes the
+        transaction, and <em>we never receive or store your payment details</em>.
+        When a purchase completes, the App sends Apple&rsquo;s signed transaction
+        receipt to our server so we can verify it, and we store a purchase record
+        containing Apple&rsquo;s transaction identifier, the product you bought,
+        the number of coins granted, the store environment, and a timestamp. We
+        use that record to grant your coins, to prevent the same purchase from
+        being redeemed more than once, and to resolve support questions about a
+        purchase.
+      </p>
+      <p className={para}>
         <span className={strong}>Usage and analytics data.</span> We use Google
         Firebase Analytics to understand how the App is used and to improve it.
         This includes app interactions (such as screens viewed and actions
         taken), your device type and operating system version, app version, and a
-        randomly generated identifier assigned to your app installation. Analytics
-        may infer approximate (city/region-level) location from your IP address.
-        We do <span className={strong}>not</span> attach your name, email, or
-        address to analytics data.
+        randomly generated identifier assigned to your app installation. When you
+        make an in-app purchase, we also send purchase details to Firebase
+        Analytics: the product purchased, its price and currency, and
+        Apple&rsquo;s transaction identifier. Analytics may infer approximate
+        (city/region-level) location from your IP address. We do{" "}
+        <span className={strong}>not</span> attach your name, email, or address to
+        analytics data.
       </p>
       <p className={para}>
         <span className={strong}>Anonymous account identifier.</span> When you
@@ -91,6 +108,9 @@ export default function CharmedPrivacyPage() {
       <ul className={list}>
         <li>To create, process, fulfill, and ship your product orders.</li>
         <li>To process payments and calculate applicable sales tax.</li>
+        <li>
+          To verify in-app purchases with Apple and grant the coins you bought.
+        </li>
         <li>
           To send you transactional emails, such as an order or payment
           confirmation.
@@ -113,6 +133,20 @@ export default function CharmedPrivacyPage() {
         tracking.
       </p>
       <ul className={list}>
+        <li>
+          <span className={strong}>Apple</span> &mdash; in-app purchase
+          processing. Apple handles the payment and card details for coin
+          purchases and provides us with a signed record of the transaction (
+          <a
+            className={link}
+            href="https://www.apple.com/legal/privacy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            privacy policy
+          </a>
+          ).
+        </li>
         <li>
           <span className={strong}>Stripe</span> &mdash; payment processing and
           sales-tax calculation (
