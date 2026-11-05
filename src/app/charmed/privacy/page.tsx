@@ -21,7 +21,7 @@ export default function CharmedPrivacyPage() {
         Charmed Privacy Policy
       </h1>
       <p className="mt-2 text-sm text-stone-500">
-        Last updated: September 1, 2026
+        Last updated: November 5, 2026
       </p>
 
       <p className={para}>
@@ -46,7 +46,10 @@ export default function CharmedPrivacyPage() {
         </span>{" "}
         To fulfill and ship a physical product, we collect the shipping details
         you enter in the order form: your full name, email address, and shipping
-        address (street, city, province, and postal code).
+        address (street, city, province or state, and postal or ZIP code). We
+        ship to Canada and the United States, and the App also keeps the shipping
+        country you choose so it can show the products and prices for where you
+        live.
       </p>
       <p className={para}>
         <span className={strong}>The design you create.</span> The product design
@@ -86,8 +89,9 @@ export default function CharmedPrivacyPage() {
         <span className={strong}>Usage and analytics data.</span> We use Google
         Firebase Analytics to understand how the App is used and to improve it.
         This includes app interactions (such as screens viewed and actions
-        taken), your device type and operating system version, app version, and a
-        randomly generated identifier assigned to your app installation. When you
+        taken), your device type and operating system version, app version, a
+        randomly generated identifier assigned to your app installation, and the
+        shipping country you choose when you select or order a product. When you
         make an in-app purchase, we also send purchase details to Firebase
         Analytics: the product purchased, its price and currency, and
         Apple&rsquo;s transaction identifier. Analytics may infer approximate
@@ -149,7 +153,8 @@ export default function CharmedPrivacyPage() {
         </li>
         <li>
           <span className={strong}>Stripe</span> &mdash; payment processing and
-          sales-tax calculation (
+          sales-tax calculation. We share your name, email address, and shipping
+          address so Stripe can calculate the tax for where your order ships (
           <a
             className={link}
             href="https://stripe.com/privacy"
@@ -220,7 +225,8 @@ export default function CharmedPrivacyPage() {
       <h2 className={heading}>Your Choices and Rights</h2>
       <p className={para}>
         Subject to applicable law (including Canada&rsquo;s Personal Information
-        Protection and Electronic Documents Act, PIPEDA), you may request access
+        Protection and Electronic Documents Act, PIPEDA, and the privacy laws of
+        your U.S. state where they apply), you may request access
         to, correction of, or deletion of the personal information we hold about
         you. To make a request, email us at{" "}
         <a className={link} href="mailto:charlie@formiolabs.com">
@@ -241,7 +247,8 @@ export default function CharmedPrivacyPage() {
       <p className={para}>
         We use service providers (including Stripe, Google, Printful, and Resend)
         that may store and process information on servers located outside your
-        province or country, including in the United States. By using the App, you
+        province, state, or country, including in the United States. Formio Labs
+        is based in Canada. By using the App, you
         understand that your information may be transferred to and processed in
         those locations.
       </p>
