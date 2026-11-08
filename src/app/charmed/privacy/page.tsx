@@ -21,7 +21,7 @@ export default function CharmedPrivacyPage() {
         Charmed Privacy Policy
       </h1>
       <p className="mt-2 text-sm text-stone-500">
-        Last updated: November 5, 2026
+        Last updated: November 8, 2026
       </p>
 
       <p className={para}>
@@ -49,7 +49,9 @@ export default function CharmedPrivacyPage() {
         address (street, city, province or state, and postal or ZIP code). We
         ship to Canada and the United States, and the App also keeps the shipping
         country you choose so it can show the products and prices for where you
-        live.
+        live. At checkout you can optionally tell us how you heard about
+        Charmed. We store your answer with your order and use it only to
+        understand which channels bring us customers.
       </p>
       <p className={para}>
         <span className={strong}>The design you create.</span> The product design
@@ -100,6 +102,34 @@ export default function CharmedPrivacyPage() {
         analytics data.
       </p>
       <p className={para}>
+        <span className={strong}>Advertising measurement.</span> To understand
+        whether our ads work, the App includes a measurement tool from{" "}
+        <a
+          className={link}
+          href="https://www.singular.net/privacy-policy/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Singular
+        </a>
+        . It collects an identifier Apple assigns to the App on your device
+        (which is not shared with other companies&rsquo; apps), your device type
+        and operating system version, the App version, your IP address (used to
+        infer approximate location), when the App was installed and opened, and
+        a small set of in-app events: claiming free coins, your first spin,
+        completing and placing your first charm, submitting a design, opening
+        checkout, and completed purchases, including their amount and currency.
+        We share this event information with the advertising platforms we run
+        campaigns on, so they can report on and improve our ads. We do{" "}
+        <span className={strong}>not</span> attach your name, email, or address
+        to it, we do not ask for permission to track you, we do not access your
+        device&rsquo;s advertising identifier, and we do not use fingerprinting.
+        Ad results are measured through privacy-preserving methods: Apple&rsquo;s
+        SKAdNetwork and AdAttributionKit, and Meta&rsquo;s Aggregated Event
+        Measurement, which report on campaigns in aggregate. Test purchases made
+        during development are not sent.
+      </p>
+      <p className={para}>
         <span className={strong}>Anonymous account identifier.</span> When you
         first launch the App, we create an anonymous account through Firebase
         Authentication. This is an anonymous identifier used to securely associate
@@ -120,6 +150,7 @@ export default function CharmedPrivacyPage() {
           confirmation.
         </li>
         <li>To operate, maintain, secure, and improve the App.</li>
+        <li>To measure how well our advertising works.</li>
         <li>
           To detect, prevent, and address fraud, abuse, or technical issues.
         </li>
@@ -131,10 +162,12 @@ export default function CharmedPrivacyPage() {
       <h2 className={heading}>How We Share Your Information</h2>
       <p className={para}>
         We share information only with the service providers needed to run the
-        App and fulfill your orders. We do <span className={strong}>not</span>{" "}
-        sell your personal information, and we do{" "}
-        <span className={strong}>not</span> use it for cross-app advertising or
-        tracking.
+        App and fulfill your orders, and with the advertising platforms we use,
+        as described below. We do <span className={strong}>not</span> sell your
+        personal information. We do <span className={strong}>not</span> track
+        you across other companies&rsquo; apps and websites, and we do{" "}
+        <span className={strong}>not</span> use your information to show you
+        ads.
       </p>
       <ul className={list}>
         <li>
@@ -194,6 +227,36 @@ export default function CharmedPrivacyPage() {
           ).
         </li>
         <li>
+          <span className={strong}>Singular</span> &mdash; advertising
+          measurement. Receives the device and in-app event information
+          described above, and passes it to the advertising platforms we use (
+          <a
+            className={link}
+            href="https://www.singular.net/privacy-policy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            privacy policy
+          </a>
+          ).
+        </li>
+        <li>
+          <span className={strong}>Advertising platforms</span> &mdash; currently
+          Meta (Facebook and Instagram). They receive install and in-app event
+          information through Singular, not your name, email, or address, so
+          they can report on and improve our ads (
+          <a
+            className={link}
+            href="https://www.facebook.com/privacy/policy/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Meta privacy policy
+          </a>
+          ). We will update this list when we start advertising with another
+          platform.
+        </li>
+        <li>
           <span className={strong}>Resend</span> &mdash; sending transactional
           order and confirmation emails (
           <a
@@ -245,7 +308,8 @@ export default function CharmedPrivacyPage() {
 
       <h2 className={heading}>International Data Transfers</h2>
       <p className={para}>
-        We use service providers (including Stripe, Google, Printful, and Resend)
+        We use service providers (including Stripe, Google, Printful, Resend,
+        and Singular) and advertising platforms (including Meta)
         that may store and process information on servers located outside your
         province, state, or country, including in the United States. Formio Labs
         is based in Canada. By using the App, you
